@@ -1,18 +1,17 @@
-// This is normal function 
+let arr = [1,2,3,4,5,6,7,8,9];
 
-// function wwe(val1,val2){
-//     // console.log(`Hello World ${val}`);
-//     console.log(val1 + val2 + 5)
-   
-// }
-// wwe(10,20);
-
-let arr = [1,2,3]
-let val = arr.map((e)=>{
-    return e*2
+let newArr = arr.map((num)=>{
+    console.log(num**2);
+    return num*num
 })
+console.log(arr);
+console.log(newArr);
 
-console.log((val));
 
 
+// //forEach
+// let arr = [1,2,3,4,5,6,7,8,9]; //forEach doesnot return any value
 
+//  arr.forEach((num)=>{
+//     console.log(num**2)
+// })
