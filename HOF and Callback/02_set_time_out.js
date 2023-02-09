@@ -13,6 +13,6 @@ function setTime() {
     console.log(`This is a timer There have 3 second of delay`)
 }
 
-setTimeout(setTime,3000);
+setTimeout(setTime,3000)
 
 
