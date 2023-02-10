@@ -7,19 +7,19 @@
 
 
 // syntax
-
-
-try {
-     // console.log("Hitesh");
-     // console.log(Ineuron);
-     let age = 18;
-     if (!age < 18){
-          throw new Error("hii")
+try{
+    let firstName = "Pradip";
+    console.log(firstName + " " + lastName )
+    
+     let i = 10;
+     if (i==10){
+          throw "Ref"
      }
-} catch (err) {
-     // console.log("Ineuron not Declared");
+    
+}catch(err){
      // console.log(err.name);
-     // console.log(err.message);
+     console.log( err.message);
 }finally{
-     // console.log("All is correct.");
+     console.log("I AM FINALLY")     
+
 }
